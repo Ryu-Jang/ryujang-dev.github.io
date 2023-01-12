@@ -10,7 +10,7 @@ comments: true
 
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
-**Here is some bold text**
+**Here is some bold text 볼드체 한국은 어떻게 되냐**
 
 ## Here is a secondary heading
 
@@ -19,6 +19,13 @@ Here's a useless table:
 | Number | Next number | Previous number |
 | :------ |:--- | :--- |
 | Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
+
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| 오 | 육 | 칠 |
 | Ten | Eleven | Nine |
 | Seven | Eight | Six |
 | Two | Three | One |
@@ -65,12 +72,12 @@ You can add notification, warning and error boxes like this:
 ### Notification
 
 {: .box-note}
-**Note:** This is a notification box.
+**Note:** This is a notification box 호오 이런게.
 
 ### Warning
 
 {: .box-warning}
-**Warning:** This is a warning box.
+**Warning:** This is a warning box있네 신기하게.
 
 ### Error
 
