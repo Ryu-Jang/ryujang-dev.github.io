@@ -677,6 +677,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   transition: opacity 1s linear;
 }
 .intro-header .page-heading {
+  font-family: 'pf','jua','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
 }
 .intro-header.big-img .page-heading,
