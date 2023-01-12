@@ -28,12 +28,11 @@ p {
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'pf', 'jua','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
 }
 h1 {
-  font-family: 'pf', 'jua', 'Lora', 'Times New Roman', serif,;
   font-size: 2.25rem;
 }
 h2 {
