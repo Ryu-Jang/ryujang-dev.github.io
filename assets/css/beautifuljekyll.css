@@ -1,6 +1,16 @@
 ---
 layout: null
 ---
+@font-face {
+  src: url("./BMJUA_ttf.ttf") format("truetype");
+  font-family: "jua";
+  font-style: normal;
+}
+@font-face {
+  src: url("./PFStardust.ttf") format("truetype");
+  font-family: "pf";
+  font-style: normal;
+}
 
 @import url("pygment_highlights.css");
 @import url("font.css");
