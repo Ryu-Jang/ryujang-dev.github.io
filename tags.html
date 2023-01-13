@@ -15,23 +15,6 @@ title: 'Tag Index'
 {%- for tag in tags_list -%}
     <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
 {%- endfor -%}
-#
-<div id="full-tags-list">
-    <h2 id="{{- tag_list.1 -}}" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag_list.1 -}}&nbsp;({{site.tags[tag_list.1].size}})
-    </h2>
-    <div class="post-list">
-        {%- for post in site.tags[tag_list.1] -%}
-            <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
-                </div>
-            </div>
-        {%- endfor -%}
-    </div>
-</div>
 
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
