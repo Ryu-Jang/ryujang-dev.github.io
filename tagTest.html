@@ -13,14 +13,14 @@ permalink: /tagtest.html
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
-
 <div id="full-tags-list">
-    <h2 id="{{- tag_list.1 -}}" class="linked-section">
+{%- for tag in tags_list[0:1] -%}
+    <h2 id="{{- tag -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag_list.1 -}}&nbsp;({{site.tags[tag_list.1].size}})
+        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
     </h2>
     <div class="post-list">
-        {%- for post in site.tags[tag_list.1] -%}
+        {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
                 <div class="entry-date">
@@ -29,4 +29,5 @@ permalink: /tagtest.html
             </div>
         {%- endfor -%}
     </div>
+{%- endfor -%}
 </div>
