@@ -22,9 +22,11 @@ author: Stationlife
 navbar-links:
   About Me: "aboutme"
   Project:
-    - Algorithm: "https://beautifuljekyll.com"
+    - Algorithm Basic: "https://beautifuljekyll.com"
+    - Algorithm Ps: "https://beautifuljekyll.com"
     - Java: "https://www.markdowntutorial.com/"
-    - 아아 : ""
+    - Spring: "https://www.markdowntutorial.com/"
+    - AWS: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
 
 ################
