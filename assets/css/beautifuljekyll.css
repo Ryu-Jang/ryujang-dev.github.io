@@ -12,6 +12,46 @@ layout: null
   font-style: normal;
 }
 
+
+@font-face {
+  src: url("./Dongle-Bold.ttf") format("truetype");
+  font-family: "DB";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./Dongle-Light.ttf") format("truetype");
+  font-family: "DL";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./Dongle-Regular.ttf") format("truetype");
+  font-family: "DR";
+  font-style: normal;
+}
+
+
+
+@font-face {
+  src: url("./Sunflower-Bold.ttf") format("truetype");
+  font-family: "SFB";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./Sunflower-Light.ttf") format("truetype");
+  font-family: "SFL";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./Sunflower-Medium.ttf") format("truetype");
+  font-family: "SFM";
+  font-style: normal;
+}
+
+
 @import url("pygment_highlights.css");
 @import url("font.css");
 
