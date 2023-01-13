@@ -15,12 +15,12 @@ permalink: /tagtest.html
 
 
 <div id="full-tags-list">
-    <h2 id="{{- tag_list[1] -}}" class="linked-section">
+    <h2 id="{{- tag_list.1 -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag_list[1] -}}&nbsp;({{site.tags[tag_list[1]].size}})
+        &nbsp;{{- tag_list.1 -}}&nbsp;({{site.tags[tag_list.1].size}})
     </h2>
     <div class="post-list">
-        {%- for post in site.tags[tag_list[1]] -%}
+        {%- for post in site.tags[tag_list.1] -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
                 <div class="entry-date">
