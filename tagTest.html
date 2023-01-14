@@ -18,19 +18,15 @@ permalink: /tagtest.html
     <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
 {%- endfor -%}
 
-<h2 id="{{- tag_list.1 -}}">
-    &nbsp;{{- tag_list.1 -}}&nbsp;({{site.tags[tag_list.1].size}})
-</h2>
-<h2 id="{{- tag_list.2 -}}">
-    &nbsp;{{- tag_list.2 -}}&nbsp;({{site.tags[tag_list.2].size}})
-</h2>
-<h2 id="{{- tag_list[1] -}}">
-    &nbsp;{{- tag_list[1] -}}&nbsp;({{site.tags[tag_list[1]].size}})
-</h2>
-<h2 id="{{- tag_list[2] -}}">
-    &nbsp;{{- tag_list[2] -}}&nbsp;({{site.tags[tag_list[2]].size}})
+
+<h2 id="{{- tag_list -}}">
+    &nbsp;{{- tag_list -}}&nbsp;({{site.tags[tag_list].size}})
 </h2>
 
+
+<h2 id="{{- tag_list -}}">
+    &nbsp;{{- tag_list -}}&nbsp;({{site.tags[tag_list].size}})
+</h2>
 
     
     
