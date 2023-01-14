@@ -63,7 +63,7 @@ html {
 
 body {
   font-family:  'DR','SFL','Lora', 'Times New Roman', serif, 'pf', 'jua';
-  font-size: 1.125rem;
+  font-size: 1.325rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
