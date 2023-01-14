@@ -1,7 +1,6 @@
 ---
 layout: page
-title: 'Tag Index TEST5'
-permalink: /tagtest.html
+title: 'Tag Index test 1 '
 ---
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
@@ -13,14 +12,23 @@ permalink: /tagtest.html
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
+{%- for tag in tags_list -%}
+    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+{%- endfor -%}
+
+<h2 id="{{- tag_list.1 -}}">
+<h2 id="{{- tag_list.2 -}}">
+<h2 id="{{- tag_list[1] -}}">
+<h2 id="{{- tag_list[2] -}}">    
+
+
+    
+    
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
     <h2 id="{{- tag -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
         &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
-        &nbsp;{% print(tag_list.index('A')) %}
-        &nbsp;{% print(tag_list.index('a')) %}
-        &nbsp;{% print(tag_list.index('c')) %}
     </h2>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
