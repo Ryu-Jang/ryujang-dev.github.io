@@ -22,7 +22,10 @@ permalink: /tagtest.html
 {% index = post.tags.indexOf('a') %}
     <h1> {{index}} </h1>
 {% index = post.tags.indexOf('b') %}
-    <h1> {{index}} </h1>
+    <h1> index = {{index}} </h1>
+{% post_tags = post.tags %}
+    <h1> post_tags = {{post_tags}}</h1>
+
 
 
     
