@@ -19,11 +19,11 @@ permalink: /tagtest.html
 {%- endfor -%}
 
 
-{% set index = post.tags.indexOf('a') %}
+{% assign index = post.tags.indexOf('a') %}
     <h1> {{index}} </h1>
-{% set index2 = post.tags.indexOf('b') %}
+{% assign index2 = post.tags.indexOf('b') %}
     <h1> index2 = {{index2}} </h1>
-{% set post_tags = post.tags %}
+{% assign post_tags = post.tags %}
     <h1> post_tags = {{post_tags}}</h1>
 
 
