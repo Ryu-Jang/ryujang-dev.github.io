@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Tag Index test 3 '
+title: 'Tag Index test 4 '
 permalink: /tagtest.html
 
 ---
@@ -26,18 +26,17 @@ permalink: /tagtest.html
 {% assign post_tags = post.tags %}
     <h1> post_tags = {{post_tags}}</h1>
 
-
-
+{% assign post_tags = "a" %}
+    <h1> a = {{a}}</h1>
     
     
 <div id="full-tags-list">
-{%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
+    <h2 id="{{- a -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+        &nbsp;{{- a-}}&nbsp;({{site.tags[a].size}})
     </h2>
     <div class="post-list">
-        {%- for post in site.tags[tag] -%}
+        {%- for post in site.tags[a] -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
                 <div class="entry-date">
@@ -46,5 +45,4 @@ permalink: /tagtest.html
             </div>
         {%- endfor -%}
     </div>
-{%- endfor -%}
 </div>
