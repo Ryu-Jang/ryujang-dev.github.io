@@ -22,12 +22,12 @@ author: Stationlife
 navbar-links:
   About Me: "aboutme"
   Project:
-    - Algorithm Basic: "/tagpage/algorithm_basic_page"
-    - Algorithm Ps: "/tagpage/algorithm_ps_page"
-    - Java: "/tagpage/java_page"
-    - Spring: "/tagpage/spring_page"
-    - AWS: "/tagpage/aws_page"
-   Tag index : "/tagpage/" 
+    - Algorithm Basic: "algorithm_basic_page"
+    - Algorithm Ps: "algorithm_ps_page"
+    - Java: "java_page"
+    - Spring: "spring_page"
+    - AWS: "aws_page"
+   Tag index : "tags" 
   
 ################
 # --- Logo --- #
