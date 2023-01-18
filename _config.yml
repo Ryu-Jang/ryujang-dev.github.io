@@ -22,13 +22,13 @@ author: Stationlife
 navbar-links:
   About Me: "aboutme"
   Project:
-    - Algorithm Basic: "https://beautifuljekyll.com"
-    - Algorithm Ps: "https://beautifuljekyll.com"
-    - Java: "https://www.markdowntutorial.com/"
-    - Spring: "https://www.markdowntutorial.com/"
-    - AWS: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
-
+    - Algorithm Basic: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_basic.html"
+    - Algorithm Ps: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_ps.html"
+    - Java: "https://ryu-jang.github.io/ryujang-dev.github.io/java.html"
+    - Spring: "https://ryu-jang.github.io/ryujang-dev.github.io/spring.html"
+    - AWS: "https://ryu-jang.github.io/ryujang-dev.github.io/aws.html"
+   Tag index : "https://ryu-jang.github.io/ryujang-dev.github.io/tags/" 
+  
 ################
 # --- Logo --- #
 ################
