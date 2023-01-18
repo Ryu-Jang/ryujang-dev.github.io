@@ -98,7 +98,8 @@ h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
 a {
-  color: {{ site.link-col | default: "#008AFF" }};
+  color: {{ site.link-col | default: "#392f31" }};
+  font-family:  'DL' ;
 }
 a:hover,
 a:focus {
@@ -672,7 +673,7 @@ footer .footer-custom-content {
 }
 
 #full-tags-list .tag-entry a {
-  font-size: 1.25rem;
+  font-size: 2.0rem;
 }
 
 #full-tags-list .tag-entry .entry-date {
