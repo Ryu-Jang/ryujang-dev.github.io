@@ -22,12 +22,12 @@ author: Stationlife
 navbar-links:
   About Me: "aboutme"
   Project:
-    - Algorithm Basic: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_basic.html"
-    - Algorithm Ps: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_ps.html"
-    - Java: "https://ryu-jang.github.io/ryujang-dev.github.io/java.html"
-    - Spring: "https://ryu-jang.github.io/ryujang-dev.github.io/spring.html"
-    - AWS: "https://ryu-jang.github.io/ryujang-dev.github.io/aws.html"
-   Tag index : "https://ryu-jang.github.io/ryujang-dev.github.io/tags/" 
+    - Algorithm Basic: "/tagpage/algorithm_basic_page"
+    - Algorithm Ps: "/tagpage/algorithm_ps_page"
+    - Java: "/tagpage/java_page"
+    - Spring: "/tagpage/spring_page"
+    - AWS: "/tagpage/aws_page"
+   Tag index : "/tagpage/" 
   
 ################
 # --- Logo --- #
