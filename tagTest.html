@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 'Tag Index test 4 '
-permalink: /tagtest.html
+title: 'Algorithm '
+permalink: /algorithm.html
 
 ---
 
@@ -14,29 +14,15 @@ permalink: /tagtest.html
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
-{%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
-{%- endfor -%}
 
-
-{% assign index = post.tags.indexOf('a') %}
-    <h1> {{index}} </h1>
-{% assign index2 = post.tags.indexOf('b') %}
-    <h1> index2 = {{index2}} </h1>
-{% assign post_tags = post.tags %}
-    <h1> post_tags = {{post_tags}}</h1>
-
-{% assign a = "a" %}
-    <h1> a = {{a}}</h1>
-    
-    
+{% assign tag_name = "algorithm" %}
 <div id="full-tags-list">
-    <h2 id="{{- a -}}" class="linked-section">
+    <h2 id="{{- tag_name -}}" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- a-}}&nbsp;({{site.tags[a].size}})
+        &nbsp;{{- tag_name -}}&nbsp;({{site.tags[tag_name].size}})
     </h2>
     <div class="post-list">
-        {%- for post in site.tags[a] -%}
+        {%- for post in site.tags[tag_name] -%}
             <div class="tag-entry">
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
                 <div class="entry-date">
