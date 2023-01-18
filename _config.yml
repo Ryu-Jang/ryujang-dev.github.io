@@ -23,7 +23,7 @@ author: Stationlife
 navbar-links:
   About Me : "aboutme"
   Project : 
-    - Algorithm Basic: "/tag_page/algorithm_basic_page"
+    - Algorithm Basic: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_basic.html"
 ################
 # --- Logo --- #
 ################
