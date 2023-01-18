@@ -24,6 +24,8 @@ navbar-links:
   About Me : "aboutme"
   Project : 
     - Algorithm Basic: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_basic.html"
+    - Algorithm Ps: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_ps.html"
+    - Java: "https://ryu-jang.github.io/ryujang-dev.github.io/java.html"
 ################
 # --- Logo --- #
 ################
