@@ -26,6 +26,9 @@ navbar-links:
     - Algorithm Basic: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_basic.html"
     - Algorithm Ps: "https://ryu-jang.github.io/ryujang-dev.github.io/algorithm_ps.html"
     - Java: "https://ryu-jang.github.io/ryujang-dev.github.io/java.html"
+    - Spring: "https://ryu-jang.github.io/ryujang-dev.github.io/spring.html"
+    - AWS: "https://ryu-jang.github.io/ryujang-dev.github.io/aws.html"
+  Tag index : "https://ryu-jang.github.io/ryujang-dev.github.io/tags/" 
 ################
 # --- Logo --- #
 ################
