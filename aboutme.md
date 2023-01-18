@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 나에 관해
+subtitle: 나, 블로그에 관한 설명
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+풀스택을 목표로 하는 주니어 개발자, 그 시작 그리고 만들고 싶은걸 만들고 , 독자에게 설명하는 것
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
+어떤 글을 쓰나?
+- 배우고 싶은것을 배우고, 만들고 싶은걸 만드는 과정에서 배우는것을 씁니다.
+- 읽기 쉬운 글을 씁니다. 누구나 읽기 쉽고, 잘 설명하는것이 좋은 글이라 생각합니다.
 
-### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### 주요 프로젝트
+
