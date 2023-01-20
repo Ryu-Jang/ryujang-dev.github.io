@@ -62,6 +62,36 @@ layout: null
 }
 
 
+@font-face {
+  src: url("./NanumSquareNeo-bRg.ttf") format("truetype");
+  font-family: "NSNRG";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./NanumSquareEB.ttf") format("truetype");
+  font-family: "NSEB";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./NanumSquareNeo-eHv.ttf") format("truetype");
+  font-family: "NSNHV";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./NanumSquareNeo-cBd.ttf") format("truetype");
+  font-family: "NSNBD";
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./NanumSquareNeo-aLt.ttff") format("truetype");
+  font-family: "NSNLT";
+  font-style: normal;
+}
+
 
 @font-face {
   src: url("./Sunflower-Bold.ttf") format("truetype");
